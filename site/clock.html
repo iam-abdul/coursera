@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clock</title>
+</head>
+<style type="text/css">
+	#clock {
+		width: 900px;
+		margin: 150px;
+		text-align: center;
+		font-size: 150px;
+	}
+
+</style>
+
+
+<body>
+<div id="clock"></div>
+
+
+<script type="text/javascript">
+setInterval(displayclock,250);
+function displayclock() {
+	var time = new Date();
+	var hrs = time.getHours();
+	var min = time.getMinutes();
+	var sec = time.getSeconds();
+
+
+	if(hrs>12){
+		hrs = hrs -  12;
+	}
+
+	if(hrs < 10){
+		hrs = '0' + hrs;
+	}
+
+	if (sec<10){
+		sec = '0'+sec;
+	}
+
+	if(hrs == 0){
+		hrs = 12;
+	}
+
+	document.getElementById('clock').innerHTML = hrs + ":" + min + ":" 
+	+ sec;
+
+	// body...
+}
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
