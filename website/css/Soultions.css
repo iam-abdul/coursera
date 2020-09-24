@@ -1,0 +1,16 @@
+body{
+	color:#fff;
+	background-color:maroon;
+	background-color:#f6b319;
+}
+#header-nav{
+	background-color:#f6b319;
+	border-radius:0px;
+	border:0px;
+}
+#logo-img{
+	background-image: url('../logo.png');
+	width:150px;
+	height:150px;
+	margin:10px 15px 10px 0;
+}
