@@ -2,20 +2,22 @@
 <html>
 <head>
 	<title>Clock</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../website/css/abd_styles.css">
 </head>
 <style type="text/css">
-	#clock {
-		width: 900px;
-		margin: 150px;
-		text-align: center;
-		font-size: 150px;
-	}
+	
+
 
 </style>
 
 
+
 <body>
 <div id="clock"></div>
+<div id="min"></div>
+<div id="sec"></div>
+
 
 
 <script type="text/javascript">
@@ -42,11 +44,15 @@ function displayclock() {
 	if(hrs == 0){
 		hrs = 12;
 	}
+	if(min < 10){
+		min = '0' + min;
+	}
 
-	document.getElementById('clock').innerHTML = hrs + ":" + min + ":" 
-	+ sec;
+	document.getElementById('clock').innerHTML = hrs /*+ ":" + min + ":" + sec; */
 
 	// body...
+	document.getElementById('min').innerHTML = min
+	document.getElementById('sec').innerHTML = sec
 }
 
 

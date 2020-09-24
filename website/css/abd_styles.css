@@ -1,7 +1,63 @@
 body{
 	color:#fff;
-	background-color:maroon;
+	background-color:#88b04b;
 
+}
+#clock {
+		margin-top: 50%;
+		margin-left: 33%;
+		float: left;
+		border: solid;
+		background-color: #f6b319;
+		width: 170px;
+		text-align: center;
+		font-size: 150px;
+		font-family: "clk";
+		border-color: black;
+		box-shadow: 3px 4px 3px black;
+
+
+}
+
+.thrs{
+	float: bottom;
+}
+
+
+
+#min{
+		margin-left: 1%;
+		margin-top: 50%;
+		float: left;
+		border: solid;
+		background-color: #f6b319;
+		width: 170px;
+		text-align: center;
+		font-size: 150px;
+		font-family: "clk";
+		border-color: black;
+		box-shadow: 3px 4px 3px black;
+
+}
+#sec {
+		
+		margin-left: 1%;
+		margin-top: 50%;
+		margin-bottom: 50%;
+		
+		float: left;
+		border: solid;
+		background-color: #f6b319;
+		width: 170px;
+		text-align: center;
+		font-size: 150px;
+		font-family: "clk";
+		border-color: black;
+		box-shadow: 3px 4px 3px black;
+}
+@font-face{
+	font-family: "clk";
+	src: url('..\fonts\PlayfairDisplay-Medium.ttf')
 }
 .navbar-default {
   background-color: #f6b319;
