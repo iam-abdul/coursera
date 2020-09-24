@@ -1,8 +1,12 @@
-body{
+body.page_clock{
 	color:#fff;
 	background-color:#88b04b;
-
 }
+body.page_home{
+	
+	background-color:maroon;
+}
+
 #clock {
 		margin-top: 50%;
 		margin-left: 33%;
