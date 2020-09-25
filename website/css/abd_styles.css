@@ -23,6 +23,24 @@ body.page_home{
 
 }
 
+#menu a:hover{
+ background:#E7E7E7;
+ border-color: black;
+ border: 1px solid black;
+ box-shadow: 1px 2px 2px; 
+}
+#imagg img:hover{
+ background:#E7E7E7;
+ border-color: maroon;
+ border: 1px solid black;
+ box-shadow: 1px 2px 2px; 
+
+
+}
+#imagg{
+	float: left;
+	padding: 3px;
+}
 
 
 
@@ -63,4 +81,9 @@ body.page_home{
 .navbar-default {
   background-color: #f6b319;
   border-color: #e7e7e7;
+}
+.navbar-brand{
+	font-family: "clk";
+	
+	float: top;
 }

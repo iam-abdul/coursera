@@ -1,7 +1,7 @@
 body{
 	color:#fff;
 	background-color:maroon;
-	background-color:#f6b319;
+	
 }
 #header-nav{
 	background-color:#f6b319;
@@ -10,7 +10,36 @@ body{
 }
 #logo-img{
 	background-image: url('../logo.png');
+	background-position: right;
 	width:150px;
 	height:150px;
 	margin:10px 15px 10px 0;
+}
+h1{
+	color:green;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+}
+#nav-list a{
+color: #951C49;
+text-align: center;
+
+}
+#nav-list a:hover{
+ background:#E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 13px;
+}
+#phone div{
+	text-align: right;
+	color:#557c3e;
 }
