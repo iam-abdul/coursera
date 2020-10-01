@@ -29,6 +29,17 @@ body.page_home{
  
  box-shadow: 1px 2px 2px; 
 }
+#namee{
+	font-family: "headd";
+	color: #35212A;
+	float: left;
+	float: top;
+	padding-left: 5px;
+	
+
+	
+}
+
 
 
 
@@ -76,6 +87,10 @@ body.page_home{
 	font-family: "clk";
 
 	src: url('..\fonts\PlayfairDisplay-Medium.ttf')
+}
+@font-face{
+	font-family: "headd";
+	src: url("..\fonts\PlayfairDisplay-Bold.ttf")
 }
 .navbar-default {
   background-color: white;
