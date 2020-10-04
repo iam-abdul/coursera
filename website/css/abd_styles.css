@@ -1,15 +1,28 @@
+@font-face{
+	font-family: "clk";
+
+	src: url('..\fonts\PlayfairDisplay-Medium.ttf')
+}
+@font-face{
+	font-family: "headd";
+	src: url("..\fonts\PlayfairDisplay-Bold.ttf")
+}
 body.page_clock{
 	color:#fff;
 	background-color:#88b04b;
+	padding-left: 30%;
+	padding-top: 15%;
+	
 }
 body.page_home{
 	
 	background-color:maroon;
 }
 
-#clock {
-		margin-top: 50%;
-		margin-left: 33%;
+#min,#clock, #sec{
+
+		font-family: "headd";
+		margin: 10px;
 		float: left;
 		border: solid;
 		background-color: #f6b319;
@@ -20,8 +33,8 @@ body.page_home{
 		border-color: black;
 		box-shadow: 3px 4px 3px black;
 
-
 }
+
 
 #menu a:hover{
  background:#35212A;
@@ -34,12 +47,27 @@ body.page_home{
 	color: #35212A;
 	float: left;
 	float: top;
-	padding-left: 5px;
-	
-
-	
+	padding-left: 6px;
 }
 
+#githubrep ,#mail1, #linkedin{
+	padding-left: 15px;
+
+	font-family: "headd";
+	padding-bottom: 20px;
+	padding-right: 15px;
+	}
+#para{
+	font-family: "headd";
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	color: black;
+	background: white;
+	padding-bottom: 30px;
+
+}
 
 
 
@@ -47,51 +75,19 @@ body.page_home{
 	float: left;
 	padding: 3px;
 }
-
-
-
-#min{
-		margin-left: 1%;
-		margin-top: 50%;
-		float: left;
-		border: solid;
-		background-color: #f6b319;
-		width: 170px;
-		text-align: center;
-		font-size: 150px;
-		font-family: "clk";
-		border-color: black;
-		box-shadow: 3px 4px 3px black;
-
+#seperator{
+	padding: 2px;
+	stroke: black;
+	stroke-width: 10px 10px 10px;
 }
-#sec {
-		
-		margin-left: 1%;
-		margin-top: 50%;
-		margin-bottom: 50%;
-		
-		float: left;
-		border: solid;
-		background-color: #f6b319;
-		width: 170px;
-		text-align: center;
-		font-size: 150px;
-		font-family: "clk";
-		border-color: black;
-		box-shadow: 3px 4px 3px black;
-}
+
+
+
+
 #itemz{
 	padding-top: 5px;
 }
-@font-face{
-	font-family: "clk";
 
-	src: url('..\fonts\PlayfairDisplay-Medium.ttf')
-}
-@font-face{
-	font-family: "headd";
-	src: url("..\fonts\PlayfairDisplay-Bold.ttf")
-}
 .navbar-default {
   background-color: white;
   border-color: #e7e7e7;
